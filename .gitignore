@@ -1,0 +1,16 @@
+# Local credentials and machine-specific configuration
+secrets/
+**/secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.mobileconfig
+.env
+.env.*
+*.conf
+!*.conf.example
+
+# Local backups
+*.bak
+*.bak-*
